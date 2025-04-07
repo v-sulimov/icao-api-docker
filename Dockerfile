@@ -1,5 +1,5 @@
 # Stage 1: Build the binary.
-FROM rust:1.84.1 AS builder
+FROM rust:1.86.0 AS builder
 
 # Install required system dependencies.
 RUN apt-get update && apt-get install -y git curl
